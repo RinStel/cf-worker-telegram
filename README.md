@@ -1,8 +1,8 @@
-# cf-worker-telegram
+# Cloudflare Worker TG反代
 
 使用 Cloudflare Worker 反代 Telegram Bot API，并内置防盗用功能。
 
-## 部署
+## 基于本地环境部署
 
 1. 安装依赖：
 
@@ -21,6 +21,14 @@
    ```bash
    npm run deploy
    ```
+
+## 直接部署到CF
+
+1. 在 Worker 页面点击 “创建应用程序”
+
+2. 选择 Continue With Github，并选择本项目
+
+3. 配置环境变量，手动设置 `SECRET` （随机字母加数字即可）
 
 ## 使用
 
