@@ -1,0 +1,7 @@
+name = "cf-worker-telegram"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# Set the secret via: wrangler secret put SECRET
+# [vars]
+# SECRET = "your-secret-here"
